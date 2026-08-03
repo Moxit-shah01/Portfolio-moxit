@@ -27,13 +27,13 @@ export function Hero() {
 
             {/* Headline with Profile Avatar */}
             <div className="flex items-center gap-4 sm:gap-6 flex-wrap sm:flex-nowrap">
-              <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-2xl overflow-hidden border-2 border-blue-600/30 shadow-md shrink-0">
+              <div className="relative w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 rounded-2xl overflow-hidden border-2 border-blue-600/40 shadow-lg shadow-blue-500/10 shrink-0 ring-4 ring-blue-500/10 dark:ring-blue-500/20">
                 <Image
                   src="/moxit.jpg"
                   alt="Moxit Shah"
                   fill
-                  sizes="(max-width: 768px) 80px, 96px"
-                  className="object-cover object-center"
+                  sizes="(max-width: 768px) 112px, 144px"
+                  className="object-cover object-top"
                   priority
                 />
               </div>

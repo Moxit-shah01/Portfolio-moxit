@@ -33,7 +33,6 @@ const projects: Project[] = [
     stack: ["Python", "Django", "Machine Learning", "HTML", "CSS"],
     desc: "Intelligent virtual career advisor platform featuring skills assessment, job market analysis, and personalized career path recommendations.",
     icon: Compass,
-    featured: true,
     image: "/images/career-advisor.png",
   },
   {
@@ -43,6 +42,7 @@ const projects: Project[] = [
     stack: ["Flutter", "FastAPI", "Python"],
     desc: "Cross-platform mobile app designed for optical store inventory, customer tracking, and sales management.",
     icon: Smartphone,
+    featured: true,
   },
   {
     id: "algominds",

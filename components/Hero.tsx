@@ -101,34 +101,34 @@ export function Hero() {
                   <span className="text-xs font-mono text-slate-400">moxit_dev.py</span>
                 </div>
 
-                <div className="space-y-4">
-                  <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-800 flex items-start gap-3">
-                    <div className="p-2 rounded-lg bg-blue-100 dark:bg-blue-950 text-blue-600 dark:text-blue-400 shrink-0">
+                <div className="space-y-3.5">
+                  <div className="p-3.5 rounded-xl bg-blue-50/70 dark:bg-blue-950/40 border border-blue-200/80 dark:border-blue-800/60 hover:border-blue-400 hover:shadow-xs transition-all duration-200 flex items-start gap-3 group">
+                    <div className="p-2 rounded-lg bg-blue-600 text-white shrink-0 shadow-xs group-hover:scale-105 transition-transform">
                       <Bot className="w-5 h-5" />
                     </div>
                     <div>
-                      <h4 className="text-sm font-semibold text-slate-900 dark:text-white">AI Assistant & Generative Models</h4>
-                      <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Google Gemini API, Custom AI Workflows & Django Integration</p>
+                      <h4 className="text-sm font-bold text-slate-900 dark:text-white">AI Assistant & Generative Models</h4>
+                      <p className="text-xs text-slate-600 dark:text-slate-300 mt-0.5">Google Gemini API, Custom AI Workflows & Django Integration</p>
                     </div>
                   </div>
 
-                  <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-800 flex items-start gap-3">
-                    <div className="p-2 rounded-lg bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400 shrink-0">
+                  <div className="p-3.5 rounded-xl bg-blue-50/70 dark:bg-blue-950/40 border border-blue-200/80 dark:border-blue-800/60 hover:border-blue-400 hover:shadow-xs transition-all duration-200 flex items-start gap-3 group">
+                    <div className="p-2 rounded-lg bg-emerald-600 text-white shrink-0 shadow-xs group-hover:scale-105 transition-transform">
                       <Smartphone className="w-5 h-5" />
                     </div>
                     <div>
-                      <h4 className="text-sm font-semibold text-slate-900 dark:text-white">Mobile Development</h4>
-                      <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Flutter & FastAPI inventory management & tracking apps</p>
+                      <h4 className="text-sm font-bold text-slate-900 dark:text-white">Mobile Development</h4>
+                      <p className="text-xs text-slate-600 dark:text-slate-300 mt-0.5">Flutter & FastAPI inventory management & tracking apps</p>
                     </div>
                   </div>
 
-                  <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-800 flex items-start gap-3">
-                    <div className="p-2 rounded-lg bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 shrink-0">
+                  <div className="p-3.5 rounded-xl bg-blue-50/70 dark:bg-blue-950/40 border border-blue-200/80 dark:border-blue-800/60 hover:border-blue-400 hover:shadow-xs transition-all duration-200 flex items-start gap-3 group">
+                    <div className="p-2 rounded-lg bg-indigo-600 text-white shrink-0 shadow-xs group-hover:scale-105 transition-transform">
                       <Shield className="w-5 h-5" />
                     </div>
                     <div>
-                      <h4 className="text-sm font-semibold text-slate-900 dark:text-white">Cybersecurity & Networking</h4>
-                      <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Network Defense, Endpoint Security & Blockchain concepts</p>
+                      <h4 className="text-sm font-bold text-slate-900 dark:text-white">Cybersecurity & Networking</h4>
+                      <p className="text-xs text-slate-600 dark:text-slate-300 mt-0.5">Network Defense, Endpoint Security & Blockchain concepts</p>
                     </div>
                   </div>
                 </div>

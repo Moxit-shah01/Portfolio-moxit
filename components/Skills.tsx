@@ -62,9 +62,9 @@ export function Skills() {
               {languagesFrameworks.map((skill) => (
                 <span
                   key={skill.name}
-                  className="px-3.5 py-2 rounded-xl text-sm font-medium bg-slate-50 dark:bg-slate-800/80 text-slate-800 dark:text-slate-200 border border-slate-200/80 dark:border-slate-700/70 hover:border-blue-500/50 hover:bg-blue-50/50 dark:hover:bg-blue-950/30 transition-all duration-200 flex items-center gap-1.5"
+                  className="px-3.5 py-2 rounded-xl text-sm font-medium bg-blue-50/70 dark:bg-blue-950/40 text-blue-950 dark:text-blue-200 border border-blue-200/80 dark:border-blue-800/60 hover:bg-blue-100/60 dark:hover:bg-blue-900/50 hover:border-blue-300 dark:hover:border-blue-700 transition-all duration-200 flex items-center gap-1.5 shadow-xs"
                 >
-                  <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-blue-600 dark:bg-blue-400" />
                   {skill.name}
                 </span>
               ))}

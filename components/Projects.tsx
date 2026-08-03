@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { FolderGit2, ExternalLink, Sparkles, Layers, Bot, Smartphone, Cpu, ShieldCheck } from "lucide-react";
+import { FolderGit2, ExternalLink, Sparkles, Layers, Bot, Smartphone, Cpu, ShieldCheck, Compass } from "lucide-react";
 import { GithubIcon } from "@/components/icons/BrandIcons";
 
 interface Project {
@@ -25,6 +25,16 @@ const projects: Project[] = [
     icon: Bot,
     featured: true,
     image: "/images/ai-social-assistant.png",
+  },
+  {
+    id: "career-advisor",
+    title: "Career Advisor",
+    category: "AI & Virtual Advisor",
+    stack: ["Python", "Django", "Machine Learning", "HTML", "CSS"],
+    desc: "Intelligent virtual career advisor platform featuring skills assessment, job market analysis, and personalized career path recommendations.",
+    icon: Compass,
+    featured: true,
+    image: "/images/career-advisor.png",
   },
   {
     id: "optical-store-app",

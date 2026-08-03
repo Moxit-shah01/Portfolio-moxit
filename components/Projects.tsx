@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { FolderGit2, ExternalLink, Sparkles, Layers, Bot, Smartphone, Cpu, ShieldCheck } from "lucide-react";
 import { GithubIcon } from "@/components/icons/BrandIcons";
 
@@ -11,6 +12,7 @@ interface Project {
   desc: string;
   icon: any;
   featured?: boolean;
+  image?: string;
 }
 
 const projects: Project[] = [
@@ -22,6 +24,7 @@ const projects: Project[] = [
     desc: "Web application leveraging Google Gemini AI APIs to generate automated social media content.",
     icon: Bot,
     featured: true,
+    image: "/images/ai-social-assistant.png",
   },
   {
     id: "optical-store-app",
@@ -103,9 +106,22 @@ export function Projects() {
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                     {project.title}
                   </h3>
-                  <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-6">
+                  <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4">
                     {project.desc}
                   </p>
+
+                  {/* Project Screenshot Banner if available */}
+                  {project.image && (
+                    <div className="relative w-full aspect-16/9 mb-6 rounded-xl overflow-hidden border border-slate-200/80 dark:border-slate-800 shadow-sm group-hover:shadow-md transition-all duration-300">
+                      <Image
+                        src={project.image}
+                        alt={`${project.title} Dashboard Screenshot`}
+                        fill
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                  )}
                 </div>
 
                 {/* Tech Stack Pills & Links */}

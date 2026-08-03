@@ -24,6 +24,7 @@ const projects: Project[] = [
     desc: "Web application leveraging Google Gemini AI APIs to generate automated social media content.",
     icon: Bot,
     featured: true,
+    image: "/images/ai-social-assistant.png",
   },
   {
     id: "career-advisor",

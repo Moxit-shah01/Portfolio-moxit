@@ -62,9 +62,9 @@ export function Skills() {
               {languagesFrameworks.map((skill) => (
                 <span
                   key={skill.name}
-                  className="px-3.5 py-2 rounded-xl text-sm font-medium bg-blue-50/70 dark:bg-blue-950/40 text-blue-950 dark:text-blue-200 border border-blue-200/80 dark:border-blue-800/60 hover:bg-blue-100/60 dark:hover:bg-blue-900/50 hover:border-blue-300 dark:hover:border-blue-700 transition-all duration-200 flex items-center gap-1.5 shadow-xs"
+                  className="px-3.5 py-2 rounded-xl text-sm font-medium bg-slate-50 dark:bg-slate-800/60 text-slate-700 dark:text-slate-200 border border-slate-200/80 dark:border-slate-700/60 hover:bg-blue-50 hover:text-blue-700 hover:border-blue-300 dark:hover:bg-blue-950/60 dark:hover:text-blue-300 dark:hover:border-blue-700 transition-all duration-200 flex items-center gap-1.5 shadow-2xs group cursor-default"
                 >
-                  <span className="w-1.5 h-1.5 rounded-full bg-blue-600 dark:bg-blue-400" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-slate-400 dark:bg-slate-500 group-hover:bg-blue-600 dark:group-hover:bg-blue-400 transition-colors" />
                   {skill.name}
                 </span>
               ))}
@@ -87,9 +87,9 @@ export function Skills() {
               {coreDomainsDatabases.map((domain) => (
                 <div
                   key={domain.name}
-                  className="p-3.5 rounded-xl border text-sm font-medium transition-all duration-200 flex items-center gap-2.5 bg-blue-50/70 dark:bg-blue-950/40 text-blue-950 dark:text-blue-200 border-blue-200/80 dark:border-blue-800/60 hover:bg-blue-100/60 dark:hover:bg-blue-900/50 hover:border-blue-300 dark:hover:border-blue-700 shadow-xs"
+                  className="p-3.5 rounded-xl border text-sm font-medium transition-all duration-200 flex items-center gap-2.5 bg-slate-50 dark:bg-slate-800/60 text-slate-700 dark:text-slate-200 border-slate-200/80 dark:border-slate-700/60 hover:bg-blue-50 hover:text-blue-700 hover:border-blue-300 dark:hover:bg-blue-950/60 dark:hover:text-blue-300 dark:hover:border-blue-700 shadow-2xs group cursor-default"
                 >
-                  <Database className="w-4 h-4 shrink-0 text-blue-600 dark:text-blue-400" />
+                  <Database className="w-4 h-4 shrink-0 text-slate-400 dark:text-slate-500 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors" />
                   <span>{domain.name}</span>
                 </div>
               ))}

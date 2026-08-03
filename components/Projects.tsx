@@ -49,6 +49,7 @@ const projects: Project[] = [
     stack: ["Blockchain", "Cryptography"],
     desc: "Decentralized crypto wallet application concept built on blockchain principles.",
     icon: ShieldCheck,
+    image: "/images/rockwallet.png",
   },
 ];
 

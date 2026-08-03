@@ -18,11 +18,11 @@ export function Skills() {
 
   const coreDomainsDatabases = [
     { name: "Generative AI & Gemini API", highlight: true },
-    { name: "DBMS / RDBMS", highlight: false },
-    { name: "Machine Learning", highlight: false },
-    { name: "Blockchain", highlight: false },
+    { name: "DBMS / RDBMS", highlight: true },
+    { name: "Machine Learning", highlight: true },
+    { name: "Blockchain", highlight: true },
     { name: "Network Security", highlight: true },
-    { name: "FastAPI", highlight: false },
+    { name: "FastAPI", highlight: true },
   ];
 
   return (
@@ -87,13 +87,9 @@ export function Skills() {
               {coreDomainsDatabases.map((domain) => (
                 <div
                   key={domain.name}
-                  className={`p-3.5 rounded-xl border text-sm font-medium transition-all duration-200 flex items-center gap-2.5 ${
-                    domain.highlight
-                      ? "bg-blue-50/70 dark:bg-blue-950/40 text-blue-950 dark:text-blue-200 border-blue-200 dark:border-blue-800/60"
-                      : "bg-slate-50 dark:bg-slate-800/80 text-slate-800 dark:text-slate-200 border-slate-200/80 dark:border-slate-700/70"
-                  }`}
+                  className="p-3.5 rounded-xl border text-sm font-medium transition-all duration-200 flex items-center gap-2.5 bg-blue-50/70 dark:bg-blue-950/40 text-blue-950 dark:text-blue-200 border-blue-200/80 dark:border-blue-800/60 hover:bg-blue-100/60 dark:hover:bg-blue-900/50 hover:border-blue-300 dark:hover:border-blue-700 shadow-xs"
                 >
-                  <Database className={`w-4 h-4 shrink-0 ${domain.highlight ? "text-blue-600 dark:text-blue-400" : "text-slate-400 dark:text-slate-500"}`} />
+                  <Database className="w-4 h-4 shrink-0 text-blue-600 dark:text-blue-400" />
                   <span>{domain.name}</span>
                 </div>
               ))}

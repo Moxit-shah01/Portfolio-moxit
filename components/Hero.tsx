@@ -47,7 +47,8 @@ export function Hero() {
               Software Developer specializing in{" "}
               <span className="font-semibold text-slate-800 dark:text-slate-100">AI Integration</span> (Django/Gemini),{" "}
               <span className="font-semibold text-slate-800 dark:text-slate-100">Mobile App Development</span> (Flutter), and{" "}
-              <span className="font-semibold text-slate-800 dark:text-slate-100">Network Cybersecurity</span>.
+              <span className="font-semibold text-slate-800 dark:text-slate-100">Network Cybersecurity</span> — with a strong passion for{" "}
+              <span className="font-semibold text-blue-600 dark:text-blue-400">AI/ML</span> as a future career path.
             </p>
 
             {/* CTA Buttons */}
@@ -81,6 +82,9 @@ export function Hero() {
               </span>
               <span className="px-3 py-1 bg-slate-100 dark:bg-slate-800/80 rounded-md border border-slate-200/60 dark:border-slate-700/60">
                 🔒 Cisco Certified Defense
+              </span>
+              <span className="px-3 py-1 bg-blue-50 dark:bg-blue-950/60 text-blue-600 dark:text-blue-400 rounded-md border border-blue-200/60 dark:border-blue-800/60">
+                🧠 Future Focus: AI/ML
               </span>
             </div>
 

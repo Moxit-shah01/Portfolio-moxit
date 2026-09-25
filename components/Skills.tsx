@@ -6,8 +6,9 @@ export function Skills() {
   const languagesFrameworks = [
     { name: "Python", category: "Core" },
     { name: "Django", category: "Backend" },
-    { name: "Flutter", category: "Mobile" },
     { name: "Java", category: "Core" },
+    { name: "Spring Boot", category: "Backend" },
+    { name: "Flutter", category: "Mobile" },
     { name: "JavaScript", category: "Frontend" },
     { name: "PHP", category: "Backend" },
     { name: "C", category: "System" },
@@ -18,6 +19,7 @@ export function Skills() {
 
   const coreDomainsDatabases = [
     { name: "Generative AI & Gemini API", highlight: true },
+    { name: "REST API", highlight: true },
     { name: "DBMS / RDBMS", highlight: true },
     { name: "Machine Learning", highlight: true },
     { name: "Blockchain", highlight: true },

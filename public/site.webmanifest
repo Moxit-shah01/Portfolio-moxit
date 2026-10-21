@@ -1,0 +1,31 @@
+{
+  "name": "Moxit Shah Portfolio",
+  "short_name": "Moxit Shah",
+  "description": "Portfolio of Moxit Shah - Software Developer & AI Engineer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1d",
+  "theme_color": "#0a0f1d",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/moxit-logo-sm.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/moxit-logo.png",
+      "sizes": "936x936",
+      "type": "image/png"
+    }
+  ]
+}

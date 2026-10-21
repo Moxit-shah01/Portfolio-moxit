@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ThemeToggle } from "./ThemeToggle";
-import { Menu, X, Code2 } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { name: "About", href: "#about" },
@@ -41,8 +42,15 @@ export function Navbar() {
             href="#about"
             className="flex items-center gap-2.5 group font-bold text-xl sm:text-2xl tracking-tight text-slate-900 dark:text-white"
           >
-            <div className="w-9 h-9 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20 group-hover:scale-105 transition-transform duration-200">
-              <Code2 className="w-5 h-5" />
+            <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden shadow-sm shadow-emerald-500/15 group-hover:scale-105 transition-transform duration-200 shrink-0">
+              <Image
+                src="/images/moxit-logo-sm.png"
+                alt="Moxit Shah Logo"
+                width={40}
+                height={40}
+                priority
+                className="w-full h-full object-contain"
+              />
             </div>
             <span>
               Moxit Shah<span className="text-blue-600 dark:text-blue-500">.</span>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { Mail, Phone, Copy, Check, Send, Sparkles, Heart } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/icons/BrandIcons";
 
@@ -194,7 +195,18 @@ export function ContactFooter() {
       {/* Footer Bottom Bar */}
       <div className="border-t border-slate-800 bg-slate-950 py-8 text-center text-xs text-slate-400">
         <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>© 2026 Moxit Shah. Built with Next.js & Tailwind CSS.</p>
+          <div className="flex items-center gap-2.5">
+            <div className="relative w-6 h-6 rounded-full overflow-hidden shrink-0">
+              <Image
+                src="/images/moxit-logo-sm.png"
+                alt="Moxit Shah"
+                width={24}
+                height={24}
+                className="w-full h-full object-contain"
+              />
+            </div>
+            <p>© 2026 Moxit Shah. Built with Next.js & Tailwind CSS.</p>
+          </div>
           <p className="text-slate-500 flex items-center gap-1">
             Designed for high performance & clean user experience.
           </p>
